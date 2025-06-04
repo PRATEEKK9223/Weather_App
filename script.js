@@ -1,4 +1,4 @@
-const url="http://api.weatherstack.com/current?access_key=7e29922eff3da159255efb0464d53bdd&query=";
+const url="https://api.weatherstack.com/current?access_key=7e29922eff3da159255efb0464d53bdd&query=";
 
 
 
