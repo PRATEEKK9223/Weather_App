@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:#1a1a1a;
+    color:white;
+    display:flex;
+    justify-content: center;
+    min-height:100vh;
+    align-items:center;
+}
+
+:root{
+    font-size:62.5%;
+}
+
+.main-container{
+    background:linear-gradient(135deg,#00feba , #5b548a);
+    padding:3rem;
+    border-radius:2rem;
+    text-align: center;
+    /* box-shadow: 0 0 40px #fff; */
+}
+
+
+.search{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap:1.5rem;
+}
+.search input{
+    border:none;
+    outline:none;
+    width:30rem;
+    height:4rem;
+    border-radius:3rem; 
+    padding-left:2rem;
+    font-size:2rem;
+}
+
+.search img{
+    
+   height:4rem;
+   background-color: #fff;
+   width:4rem;
+   border-radius: 50%;
+   object-fit: fill;
+}
+
+.search img:hover{
+    transform:scale(1.1);
+    box-shadow: 0 0 10px black;
+    cursor:pointer;
+}
+
+.image img{
+    width:15rem;
+    height:15rem;
+    margin:2rem auto;   
+    border-radius: 20px;
+}
+
+.main-content #p1{
+    font-size:7rem;
+    font-weight: 1000;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.main-content #p2{
+    font-size:3rem;
+    font-weight: 600;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top:1rem ;
+}
+
+.Addtion-info{
+    display:flex;
+    justify-content: space-around;
+    margin:4rem 0 2rem 0;
+}
+
+.img{
+    width:3rem;
+    height:3rem;
+}
+
+.item{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.item p{
+    font-size:2.5rem;
+}
+
+.item1{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.item1 p{
+    font-size:2rem;
+    font-weight: 400;
+}
+
+
+.description{
+    margin:30px auto 20px auto;
+    font-size:20px;
+    font-family: cursive;
+    color:#d0f0ff ;
+}
+
+.description #desc{
+    font-size:15px;
+    margin-top: 10px;
+    color:#ffeb3b;
+
+}
+
+/* ---------------------Responsive Design-------------------------- */
+
+@media(max-width:445px){
+    :root{
+        font-size:55%;
+    }
+}
+
+@media(max-width:370px){
+    :root{
+        font-size:50%;
+    }
+}
+
+@media(max-width:340px){
+    :root{
+        font-size:48%;
+    }
+}
+
+@media(max-width:325px){
+    :root{
+        font-size:45%;
+    }
+}

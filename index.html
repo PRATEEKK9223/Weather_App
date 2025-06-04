@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main-container">
+        <div class="search">
+            <input type="text" name="place" placeholder="enter location">
+            <img src="images/Search2.png" alt="">
+        </div>
+
+        <div class="image">
+           <img src="images/weather.jpeg" alt="">
+        </div>
+
+        <div class="main-content">
+           <p id="p1"><span>00</span>&deg;c</p>
+           <p id="p2">location</p>
+        </div>
+
+        <div class="Addtion-info">
+            <div class="humidity item1">
+                <div class="item">
+                    <img src="images/humidity.png" alt="humidity image" class="img">
+                    <p><span id="humid">00</span>%</p>
+                </div>
+                <p class="caption">Humidity</p>
+            </div>
+
+             <div class="wind-speed item1">
+                <div class="item">
+                    <img src="images/wind.png" alt="wind-image" class="img">
+                    <p><span id="W-speed">00</span> km/h</p>
+                </div>
+                <p class="caption">Wind-speed</p>
+            </div>
+          
+        </div>
+
+        <div class="description">
+            <P>Weather Description</P>
+            <p id="desc">description.....</p>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
